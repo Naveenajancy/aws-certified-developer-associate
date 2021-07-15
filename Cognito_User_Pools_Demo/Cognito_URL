@@ -1,1 +1,2 @@
-<Your Cognito Domain>/login?response_type=token&client_id=<Your App Client ID>&redirect_uri=https://example.com
+#<Your Cognito Domain>/login?response_type=token&client_id=<Your App Client ID>&redirect_uri=https://example.com
+https://mycgtest.auth.us-east-1.amazoncognito.com/login?response_type=token&client_id=4pn0evc0h537psfi36qrbr2a13&redirect_uri=https://example.com

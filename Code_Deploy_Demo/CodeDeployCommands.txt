@@ -14,3 +14,5 @@ sudo service codedeploy-agent status
 
 aws deploy create-application --application-name mywebapp
 aws deploy push --application-name mywebapp --s3-location s3://<MY_BUCKET_NAME>/webapp.zip --ignore-hidden-files
+aws deploy push --application-name nkbwebapp --s3-location s3://cd-nkb-bucket-189/webapp.zip --ignore-hidden-files
+aws deploy push --application-name WordPress_App --description "This is a revision for the application WordPress_App" --ignore-hidden-files --s3-location s3://codedeploydemobucket/WordPressApp.zip --source .
